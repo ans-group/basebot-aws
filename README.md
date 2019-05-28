@@ -2,14 +2,14 @@
 
 <img src="./images/bot_icon.png" width="75"/> 
 
-This guide provide instructions on how to deploy ANS BaseBot for AWS, the deployment is provided as an easy to deploy CloudFormation template that will have you up and running in a matter of minutes.
+This guide provides instructions on how to deploy ANS BaseBot for AWS, the deployment is provided as an easy to deploy CloudFormation template that will have you up and running in a matter of minutes.
 
 [![Deploy to AWS](./images/aws_deploy.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=ANS-BaseBot&templateURL=https://s3.eu-west-2.amazonaws.com/nathanguk/cloudformation/cloudformation.json)
 [![Deploy to AWS](./images/aws_view.png)](https://console.aws.amazon.com/cloudformation/designer/home?region=eu-west-1&&templateUrl=https://s3.eu-west-2.amazonaws.com/nathanguk/cloudformation/cloudformation.json)
 
 ## Pre-requisites
 
-Before deploying the tempalate there are a number of pre-requsites that need to be met along with some additional information you will required to provide.
+Before deploying the template there are a number of pre-requisites that need to be met along with some additional information you will required to provide.
 
 * An AWS Account with AWS Administrator privileges.
 * An SSL certificate that has either been created in or imported to AWS Certificate manager in the region the template is to be deployed.
