@@ -9,7 +9,7 @@ This guide provides instructions on how to deploy ANS BaseBot for AWS, the deplo
 
 ## Pre-requisites
 
-Before deploying the tempalate there are a number of pre-requsites that need to be met along with some additional information you will required to provide.
+Before deploying the template there are a number of pre-requisites that need to be met along with some additional information you will required to provide.
 
 * An AWS Account with AWS Administrator privileges.
 * An SSL certificate that has either been created in or imported to AWS Certificate manager in the region the template is to be deployed.
